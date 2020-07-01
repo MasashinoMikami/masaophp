@@ -18,6 +18,10 @@
     {
         print'スタッフ名が入力されていません。<br/>'
     }
+    if($staff_name==''||$staff_pass=='')
+    {
+        print'<form>';
+    }
     }
     </body>
 </html> 
